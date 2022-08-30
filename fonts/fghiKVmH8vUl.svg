@@ -1,0 +1,20 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" fill="#EDF0F3"/>
+<path d="M40 42C40 40.8954 40.8954 40 42 40H120V80H40V42Z" fill="#D0D4D9"/>
+<rect x="40" y="80" width="80" height="40" fill="white"/>
+<rect x="40" y="120" width="80" height="40" fill="white"/>
+<path d="M40 160H120V200H44C41.7909 200 40 198.209 40 196V160Z" fill="white"/>
+<path d="M120 40H196C198.209 40 200 41.7909 200 44V80H120V40Z" fill="#D0D4D9"/>
+<rect x="120" y="80" width="80" height="40" fill="white"/>
+<rect x="120" y="120" width="80" height="40" fill="white"/>
+<path d="M120 160H200V196C200 198.209 198.209 200 196 200H120V160Z" fill="white"/>
+<rect x="50" y="56" width="61" height="8" rx="2" fill="#566475"/>
+<rect x="50" y="96" width="61" height="8" rx="2" fill="#D0D4D9"/>
+<rect x="50" y="136" width="61" height="8" rx="2" fill="#D0D4D9"/>
+<rect x="50" y="176" width="61" height="8" rx="2" fill="#D0D4D9"/>
+<rect x="130" y="56" width="61" height="8" rx="2" fill="#566475"/>
+<rect x="130" y="96" width="61" height="8" rx="2" fill="#D0D4D9"/>
+<rect x="130" y="136" width="61" height="8" rx="2" fill="#D0D4D9"/>
+<rect x="130" y="176" width="61" height="8" rx="2" fill="#D0D4D9"/>
+<rect x="40" y="79" width="160" height="2" fill="#838D95"/>
+</svg>

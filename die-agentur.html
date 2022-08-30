@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html
+  data-wf-page="6164061fc822834b1c73a6c7"
+  data-wf-site="6164061fc82283535d73a6a9"
+  data-wf-status="1"
+  lang="de"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Die Agentur</title>
+    <meta content="Die Agentur" property="og:title" />
+    <meta content="Die Agentur" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link
+      href="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/css/shadet.webflow.24eed703d.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      @media (max-width: 991px) and (min-width: 768px) {
+        html.w-mod-js:not(.w-mod-ix)
+          [data-w-id="f5f5448f-657b-cb89-b99e-9460d7e6c30b"] {
+          opacity: 0;
+        }
+      }
+      @media (max-width: 767px) and (min-width: 480px) {
+        html.w-mod-js:not(.w-mod-ix)
+          [data-w-id="f5f5448f-657b-cb89-b99e-9460d7e6c30b"] {
+          opacity: 0;
+        }
+      }
+      @media (max-width: 479px) {
+        html.w-mod-js:not(.w-mod-ix)
+          [data-w-id="f5f5448f-657b-cb89-b99e-9460d7e6c30b"] {
+          opacity: 0;
+        }
+      }
+    </style>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            "Inconsolata:400,700",
+            "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic",
+          ],
+        },
+      });
+    </script>
+    <!--[if lt IE 9
+      ]><script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        type="text/javascript"
+      ></script
+    ><![endif]-->
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61640860750b6ba183d6f062_Ico32.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/6164086e750b6b51ecd6f081_Ico256.png"
+      rel="apple-touch-icon"
+    />
+    <script>
+      const flowBaseCookie = async (a, b, c, e = 182) => {
+        // hide the cookie block div
+        $(a).hide();
+
+        // validate the params provided
+        await validateParams(a, b, c, e);
+
+        // create the cookie
+        $(b).on("click", () => {
+          let date = new Date();
+          const expiresTime = e * 86400000; // calc milliseconds in days
+          date.setTime(date.getTime() + expiresTime); // set the cookie expires time
+          document.cookie =
+            "cookieConsent=accepted; expires=" +
+            date.toGMTString() +
+            "; path=/"; // create the cookie
+          $(a).remove(); // remove the cookie block
+        });
+
+        //clear the cookie
+        $(c).click(
+          () =>
+            (document.cookie =
+              "cookieConsent=; expires=Thu, 01 Jan 1970 00:00:01 GMT;")
+        );
+
+        if (
+          !decodeURIComponent(document.cookie).includes(
+            "cookieConsent=accepted"
+          )
+        )
+          $(a).show();
+        else $(a).remove();
+      };
+
+      const validateParams = (a, b, c, e) => {
+        // validates that the inputs are correct
+        if ((!a, !b, !e))
+          throw new Error("Error: Required parameter is missing");
+        else if (
+          typeof a !== "string" ||
+          typeof b !== "string" ||
+          (c && typeof c !== "string")
+        )
+          throw new Error("Error: Accept and Clear divs must be strings");
+        else if (typeof e !== "number")
+          throw new Error("Error: Expiry days must be a number only");
+        else return true;
+      };
+    </script>
+
+    <meta
+      name="facebook-domain-verification"
+      content="fw7iqcu2f0h6nb5vahcxfkat1g1zjz"
+    />
+  </head>
+  <body>
+    <div class="custom-code-embeds">
+      <div class="icons-embed w-embed">
+        <!--Material Icons-->
+        <link
+          href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+          rel="stylesheet"
+        />
+        <style>
+          .material-icons,
+          .material-icons-outlined,
+          .material-icons-two-tone,
+          .material-icons-round,
+          .material-icons-sharp {
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.25rem;
+            line-height: 1.25rem;
+            display: inline-block;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            -moz-osx-font-smoothing: grayscale;
+            font-feature-settings: "liga";
+          }
+          .material-icons-s {
+            font-size: 16px;
+            line-height: 16px;
+          }
+        </style>
+      </div>
+      <div class="responsive-typography-embed w-embed">
+        <!-- Responsive Typography -->
+        <style>
+          /* Desktop and above */
+          html {
+            font-size: 16px;
+          }
+          /*Tablet */
+          @media (max-width: 991px) {
+            html {
+              font-size: 16px;
+            }
+          }
+          /* Mobile - Landcape */
+          @media (max-width: 767px) {
+            html {
+              font-size: 16px;
+            }
+          }
+          /* Mobile - Portrait */
+          @media (max-width: 479px) {
+            html {
+              font-size: 16px;
+            }
+          }
+        </style>
+      </div>
+      <div class="systemflow-embed w-embed">
+        <!-- SystemFlow -->
+        <style>
+          /* Component wrapper copy icon */
+          .component-wrapper-label:before {
+            content: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92ece2f679e1ff037b09b_Copy%20Icon.svg);
+            position: absolute;
+            left: 16px;
+            top: 7px;
+          }
+          /* Customize page overflow */
+          .customize-instructions,
+          .customize-preview {
+            overflow-y: scroll;
+          }
+          /* Sidebar - component preview tooltip */
+          .navbar-vertical-link:hover::after {
+            content: "";
+            background-size: contain;
+            background-position: center center;
+            display: inline-block;
+            width: 160px;
+            height: 160px;
+            position: absolute;
+            border-radius: 4px;
+            border: 1px solid #d0d4d9;
+            z-index: 999;
+            box-sizing: border-box;
+            left: 105%;
+            top: -64px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            background-repeat: no-repeat;
+          }
+          /* Page Hover Thumbnails */
+          #nav-alert:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9462056a419c70c776_Alert.svg);
+          }
+          #nav-breadcrumbs:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9387dd5780628334cc_Breadcrumb.svg);
+          }
+          #nav-button:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e93f8fcbc0d3445ec12_Button.svg);
+          }
+          #nav-card:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e93af64f30314ee0507_Card.svg);
+          }
+          #nav-collapse:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94f8fcbcc22245ec13_Collapse.svg);
+          }
+          #nav-color:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94261180c04f24faa3_Color.svg);
+          }
+          #nav-contact:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94f47531b97525ce68_Contact.svg);
+          }
+          #nav-cta:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94af64f3728cee0508_CTA.svg);
+          }
+          #nav-dropdown:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94ef8876fd8b787edc_Dropdown.svg);
+          }
+          #nav-elevation:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94451751702ea524a8_Elevation.svg);
+          }
+          #nav-empty-sections:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e944f26375ff3c799b7_EmptySections.svg);
+          }
+          #nav-empty-sg-page:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94261180a20b24fadf_EmptySGPage.svg);
+          }
+          #nav-example-forms:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e949bf4e9bbb361082d_ExampleForms.svg);
+          }
+          #nav-faq:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94e1f1154d1441900d_FAQ.svg);
+          }
+          #nav-feat-grid:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9428e4e145c0624a20_Feat---Grid.svg);
+          }
+          #nav-feat-text-l:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e949ad1b4f50385d8df_Feat---Text-Left.svg);
+          }
+          #nav-feat-text-r:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9473f889cdaf6a1ec9_Feat---Text-Right.svg);
+          }
+          #nav-footer:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e946639f6543f5c3e7c_Footer.svg);
+          }
+          #nav-form-toggles:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9479f25b1c21ee0a60_FormToggles.svg);
+          }
+          #nav-hero:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e942611807e4424fafe_Hero.svg);
+          }
+          #nav-icons:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e940c3ddaf4686184b6_Icons.svg);
+          }
+          #nav-input:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9473f889d1666a1ed1_Input.svg);
+          }
+          #nav-link:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9479f25b39e6ee0a62_Link.svg);
+          }
+          #nav-long-content:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e95f0d432336029a5e3_LongContent.svg);
+          }
+          #nav-modal:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e943a458f06569f0a5a_Modal.svg);
+          }
+          #nav-navbar:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e948d867460c7f59b16_Navbar.svg);
+          }
+          #nav-nav-menu:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94e1f1693fb00fa151_NavMenu.svg);
+          }
+          #nav-pricing:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e95f47531b84125ce69_Pricing.svg);
+          }
+          #nav-spacing:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e947a78a1e2a68a6629_Spacing.svg);
+          }
+          #nav-table:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94af64f31f36ee0549_Table.svg);
+          }
+          #nav-tabs:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e94abbd5ed7b2becbb3_Tabs.svg);
+          }
+          #nav-tag:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e95ef88762711787edf_Tag.svg);
+          }
+          #nav-testimonials:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e956beb8d43e6373fba_Testimonials.svg);
+          }
+          #nav-textarea:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e95cc3e78d99c7c00c4_Textarea.svg);
+          }
+          #nav-toast:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e9571654299c55fadc5_Toast.svg);
+          }
+          #nav-tooltip:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e956639f638ca5c3ec7_Tooltip.svg);
+          }
+          #nav-typography:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fa92e956251b086f1cffefd_Typography.svg);
+          }
+          #nav-avatar:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fe0bac1b9ed294ba98aeb26_Avatar.svg);
+          }
+          #nav-cards:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5fe0b360e47b486a76b0c125_Cards.svg);
+          }
+          #nav-live-components:hover::after {
+            background-image: url(https://uploads-ssl.webflow.com/5fa91c41f8fcbca1e044ce27/5ff305e5fc65c2d28b3ddf75_Live%20Components.svg);
+          }
+        </style>
+      </div>
+    </div>
+    <div
+      data-animation="default"
+      class="navbar s-p-y-24 st-p-y-8 w-nav"
+      data-easing2="ease"
+      data-easing="ease"
+      data-collapse="medium"
+      data-w-id="214f06d8-2ad6-d443-c4d4-8f053d983424"
+      role="banner"
+      data-no-scroll="1"
+      data-duration="600"
+      data-doc-height="1"
+    >
+      <div class="container container-navbar">
+        <a href="/" class="brand-logo w-nav-brand"
+          ><img
+            src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61797cb20dcdccc217d0d431_logo.svg"
+            loading="lazy"
+            alt=""
+            class="brand-logo"
+        /></a>
+        <nav
+          role="navigation"
+          data-w-id="f5f5448f-657b-cb89-b99e-9460d7e6c30b"
+          class="navbar-menu w-nav-menu"
+        >
+          <div data-hover="true" data-delay="200" class="dropdown w-dropdown">
+            <div
+              class="nav-link nav-link-dropdown c-t-neutral-10 nav-black w-dropdown-toggle"
+            >
+              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+              <div>Service</div>
+            </div>
+            <nav class="dropdown-menu-navbar w-dropdown-list">
+              <a
+                href="/webanwendungen.html"
+                class="dropdown-menu-item---navbar w-dropdown-link"
+                >Webanwendung</a
+              ><a
+                href="/mobile-apps.html"
+                class="dropdown-menu-item---navbar w-dropdown-link"
+                >Mobile Apps</a
+              ><a
+                href="/optimierung-bestehender-systeme.html"
+                class="dropdown-menu-item---navbar w-dropdown-link"
+                >Optimierung bestehender Systeme</a
+              >
+            </nav>
+          </div>
+          <a
+            href="/die-agentur.html"
+            aria-current="page"
+            class="nav-link w-nav-link w--current"
+            >Die Agentur</a
+          >
+          <!-- <a href="/projekte"
+            class="nav-link c-t-neutral-10 nav-black w-nav-link">Projekte
+            </a
+          ><a
+            href="/karriere"
+            class="nav-link c-t-neutral-10 nav-black w-nav-link"
+            >Karriere</a
+          > -->
+          <div class="navbar-buttons">
+            <a
+              href="https://tidycal.com/shadet/kostenlose-beratung"
+              class="button small outline s-m-l-32 st-m-l-0 navbutton navbutton-light w-inline-block"
+              ><div class="button-text nav">Projektanfrage starten</div></a
+            >
+          </div>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div
+            data-is-ix2-target="1"
+            class="lottie-animation"
+            data-w-id="f5f5448f-657b-cb89-b99e-9460d7e6c323"
+            data-animation-type="lottie"
+            data-src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/616431f5750b6b8633d82f5a_58235-hamburger-menu.json"
+            data-loop="0"
+            data-direction="1"
+            data-autoplay="0"
+            data-renderer="svg"
+            data-default-duration="1.8333333333333333"
+            data-duration="1"
+            data-ix2-initial-state="0"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <header class="ueber-uns-header c-b-secondary-80 header-bg wf-section">
+      <div class="cta-wrapper-ueber-uns t-a-c s-m-t-64">
+        <h1
+          data-w-id="c0f697c6-38e9-8f4c-499b-66e912292d40"
+          style="
+            -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+              rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            opacity: 0;
+          "
+          class="heading xl c-t-neutral-10"
+        >
+          Wir entwickeln skalierbare und zukunftssichere Software.
+        </h1>
+      </div>
+    </header>
+    <section class="marathon-section c-b-primary-10 wf-section">
+      <div class="container">
+        <div class="wrapper-l">
+          <div class="w-layout-grid l-g-2-col lt-g-1-col">
+            <img
+              class="image-feature st-m-t-32 sh-m-t-16"
+              src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61656b2ccb704ce9a005f6e5_marathon.jpg"
+              alt=""
+              style="opacity: 0"
+              sizes="(max-width: 479px) 93vw, (max-width: 767px) 262.40625px, (max-width: 991px) 449.84375px, 486px"
+              data-w-id="fd250e39-1324-6dba-cd61-ae6cbf64e251"
+              id="w-node-fd250e39-1324-6dba-cd61-ae6cbf64e251-1c73a6c7"
+              srcset="
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61656b2ccb704ce9a005f6e5_marathon-p-500.jpeg 500w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61656b2ccb704ce9a005f6e5_marathon.jpg        731w
+              "
+            />
+            <div
+              id="w-node-fd250e39-1324-6dba-cd61-ae6cbf64e252-1c73a6c7"
+              class="feature-content-wrapper right"
+            >
+              <h2
+                data-w-id="fd250e39-1324-6dba-cd61-ae6cbf64e253"
+                style="
+                  -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                class="heading l"
+              >
+                Unsere Kunden gewinnen den Marathon
+              </h2>
+              <p
+                data-w-id="fd250e39-1324-6dba-cd61-ae6cbf64e25a"
+                style="
+                  -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                class="body-text m s-m-b-0"
+              >
+                Es gibt verschiedene Arten zu programmieren: Eine App kann
+                einfach programmiert werden, an einem Stück - schnell und
+                günstig in der Entwicklung. Sie kann aber auch in Modulen
+                gegliedert sein, die sich einzeln austauschen, erweitern und an
+                geänderte Anforderungen anpassen lassen (Clean Code).<br /><br />Unsere
+                Philosophie basiert auf der letzten Variante - denn wir möchten
+                unsere Kunden langfristig dabei unterstützen, ihrer eigenen
+                Konkurrenz immer einen Schritt voraus zu sein und den Endnutzer
+                bestmöglich zufriedenzustellen. Mit Standardsoftware gewinnen
+                Sie den Sprint. Mit Shadet-Software gewinnen Sie den Marathon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-mission wf-section">
+      <div class="container w-container">
+        <div class="wrapper-xl">
+          <div class="section-title title-mission">
+            <div
+              data-w-id="998082bd-fe94-48d2-c35a-2728b20c1ecf"
+              style="
+                -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="tagline"
+            >
+              Unsere Mission
+            </div>
+            <h2
+              data-w-id="998082bd-fe94-48d2-c35a-2728b20c1ed1"
+              style="
+                -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="heading l"
+            >
+              Wir unterstützen unsere Kunden dabei, ihr Unternehmen zu
+              skalieren.
+            </h2>
+          </div>
+          <div class="w-layout-grid l-g-2-col lt-g-1-col">
+            <p
+              id="w-node-_98ecf91f-78f0-1c74-771d-45762a08112c-1c73a6c7"
+              data-w-id="98ecf91f-78f0-1c74-771d-45762a08112c"
+              style="
+                -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="body-text l s-m-r-48"
+            >
+              Mit unseren individuellen Softwarelösungen und der Digitalisierung
+              bestehender Prozesse unterstützen wir unsere Kunden nachhaltig
+              beim Wachstum. So tragen wir dazu bei, dass unsere Kunden deren
+              Endnutzer bestmöglich bedienen und sich von der eigenen Konkurrenz
+              abgrenzen können. Und so ist auch der Credo unseres Unternehmens
+              entstanden: Scalable code = scalable business.
+            </p>
+            <p
+              data-w-id="c31bafa4-2126-2230-7aa1-96e1355d8a2a"
+              style="
+                -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="body-text l s-m-r-48"
+            >
+              Jedes Unternehmen besteht aus Prozessen und Infrastruktur. Wer
+              heute auf dem Markt bestehen möchte, muss diese Prozesse und
+              Infrastruktur bestmöglich vereinfachen und optimieren - die
+              Automatisierung und Steigerung der Nutzerfreundlichkeit durch
+              Individualsoftware gehört daher zu den größten Hebeln bei der
+              Skalierung eines Unternehmens.
+            </p>
+          </div>
+          <img
+            src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars.jpeg"
+            loading="lazy"
+            style="
+              -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                rotateY(0) rotateZ(0) skew(0, 0);
+              transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                rotateY(0) rotateZ(0) skew(0, 0);
+              opacity: 0;
+            "
+            data-w-id="012dd4be-e193-21e9-7368-f8822f8e8790"
+            sizes="(max-width: 479px) 87vw, (max-width: 767px) 356.1171875px, 95vw"
+            srcset="
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars-p-500.jpeg   500w,
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars-p-800.jpeg   800w,
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars-p-1080.jpeg 1080w,
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars-p-1600.jpeg 1600w,
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars-p-2000.jpeg 2000w,
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars-p-2600.jpeg 2600w,
+              https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4f8ea8a3e99ab9b16623_Referenz_Tuning_Stars.jpeg        3200w
+            "
+            alt=""
+            class="image-mission s-m-t-96 mobile-280 sh-m-t-32"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="vision-section c-b-secondary-10 wf-section">
+      <div class="container">
+        <div class="wrapper-m">
+          <div class="w-layout-grid l-g-2-col lt-g-1-col">
+            <div
+              id="w-node-_298f37f0-53c2-c1bb-66fc-289f88a2b709-1c73a6c7"
+              class="feature-content-wrapper left"
+            >
+              <div
+                data-w-id="0fd1f58a-7c15-d9e1-befc-186215cd6152"
+                style="
+                  -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                class="tagline"
+              >
+                unsere vision
+              </div>
+              <h2
+                data-w-id="298f37f0-53c2-c1bb-66fc-289f88a2b70a"
+                style="
+                  -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                class="heading l"
+              >
+                Wir möchten die digitale Zukunft gestalten.
+              </h2>
+              <p
+                data-w-id="298f37f0-53c2-c1bb-66fc-289f88a2b70c"
+                style="
+                  -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                  opacity: 0;
+                "
+                class="body-text l s-m-b-0"
+              >
+                Als Softwareentwickler können wir große Probleme einfach lösen.
+                Und genau diese digitale Problemlösungskompetenz treibt uns an,
+                jeden Tag unser Bestes zu geben und einen Mehrwert zu schaffen.
+                Einen Mehrwert für die Mitarbeiter und Kunden unserer Kunden.
+                Einen Mehrwert für unsere Kunden selbst. Und schließlich auch
+                einen Mehrwert für die Gesellschaft.
+              </p>
+            </div>
+            <img
+              class="image-feture-right st-m-t-32 sh-m-t-16"
+              src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil.jpeg"
+              alt=""
+              style="opacity: 0"
+              sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 95vw, 486px"
+              data-w-id="298f37f0-53c2-c1bb-66fc-289f88a2b708"
+              id="w-node-_298f37f0-53c2-c1bb-66fc-289f88a2b708-1c73a6c7"
+              srcset="
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-500.jpeg   500w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-800.jpeg   800w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-1080.jpeg 1080w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-1600.jpeg 1600w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-2000.jpeg 2000w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-2600.jpeg 2600w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil-p-3200.jpeg 3200w,
+                https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/62fe4eaf7bfb234a667b9e98_Profil.jpeg        4640w
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="section-nachhaltigkeit c-b-secondary-10 green-bg-mobile wf-section"
+    >
+      <div class="container">
+        <div class="wrapper-m">
+          <div
+            data-w-id="f9cecf8a-f296-f2f9-107e-bc964044a3d3"
+            style="opacity: 0"
+            class="wrapper-box-green s-p-64 c-b-secondary-80 sh-p-0"
+          >
+            <div class="w-layout-grid l-g-2-col lt-g-1-col">
+              <img
+                src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/6165ab5e8d33c559436cc649_globus.png"
+                style="opacity: 0"
+                data-w-id="79ceac80-f007-63a1-76ff-879948e89642"
+                id="w-node-_79ceac80-f007-63a1-76ff-879948e89642-1c73a6c7"
+                alt=""
+                class="image-globus"
+              />
+              <div
+                id="w-node-_79ceac80-f007-63a1-76ff-879948e89643-1c73a6c7"
+                class="feature-content-wrapper right s-m-r-48"
+              >
+                <div
+                  data-w-id="19b1e116-14e9-473c-c0e6-e2acad29e645"
+                  style="
+                    -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    opacity: 0;
+                  "
+                  class="tagline"
+                >
+                  unser fokus
+                </div>
+                <h2
+                  data-w-id="79ceac80-f007-63a1-76ff-879948e89644"
+                  style="
+                    -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    opacity: 0;
+                  "
+                  class="heading l c-t-neutral-10"
+                >
+                  Nachhaltigkeit.
+                </h2>
+                <p
+                  data-w-id="79ceac80-f007-63a1-76ff-879948e8964b"
+                  style="
+                    -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    opacity: 0;
+                  "
+                  class="body-text m c-t-neutral-10"
+                >
+                  Unser Handeln basiert auf Nachhaltigkeit. Zum einen auf
+                  Nachhaltigkeit in ökonomischer Hinsicht - durch langfristige
+                  Lösungen, skalierbare Software und einem höchstmöglichen
+                  Return-on-Invest (ROI) für unsere Kunden.<br /><br />Zum
+                  anderen auf Nachhaltigkeit in ökologischer Hinsicht. So
+                  arbeiten wir bereits jetzt zu 100 % mit Strom aus erneuerbaren
+                  Energien, arbeiten vollständig papierlos und meiden lange
+                  Autofahrten durch Remote Work und digitale
+                  Videokonferenzsysteme. Denn wer die Zukunft gestalten will,
+                  muss der Gegenwart einen Schritt voraus sein.
+                </p>
+                <div class="ctas-wrapper">
+                  <a
+                    data-w-id="79ceac80-f007-63a1-76ff-879948e8964e"
+                    style="
+                      -webkit-transform: translate3d(0, 55px, 0)
+                        scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0)
+                        skew(0, 0);
+                      -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                      -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                      transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                        rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                      opacity: 0;
+                    "
+                    href="/die-agentur.html"
+                    aria-current="page"
+                    class="button medium w-inline-block w--current"
+                    ><div class="button-text">Über unsere Agentur</div></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section-slider-kundenstimmen wf-section">
+      <div class="container w-container">
+        <div class="wrapper-m">
+          <div
+            data-w-id="4d04ce85-1c2f-8ec0-42c9-e02c583a852c"
+            style="opacity: 0"
+            class="wrapper-slider-bg c-b-primary-10 s-p-y-64 sh-p-y-0"
+          >
+            <h1
+              data-w-id="f376b062-5dc9-c72c-9aa9-dd638b88b09d"
+              style="
+                -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="heading m t-a-c"
+            >
+              Kundenstimmen
+            </h1>
+            <div
+              data-delay="4000"
+              data-animation="slide"
+              class="slider-02-kundenstimmen w-slider"
+              data-autoplay="false"
+              data-easing="ease"
+              data-hide-arrows="false"
+              data-disable-swipe="false"
+              data-autoplay-limit="0"
+              data-nav-spacing="3"
+              data-duration="500"
+              data-infinite="true"
+            >
+              <div class="mask-2 w-slider-mask">
+                <div
+                  data-w-id="e7239dd2-df35-1336-48ad-63392c262d3e"
+                  style="
+                    -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                      rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                    opacity: 0;
+                  "
+                  class="slide w-slide"
+                >
+                  <div class="testimonial-box-3">
+                    <p class="body-text m">
+                      &quot;Die Kollegen von Shadet liefern eine qualitativ
+                      hochwertige Arbeit. Die Kommunikation ist zielgerichtet.
+                      Wir sind dankbar Shadet als Partner zu haben.&quot;
+                    </p>
+                    <div class="avatar-wrapper vertical">
+                      <div class="avatar-label-text centered s-m-t-8">
+                        <div class="body-text m bold c-t-neutral-100">
+                          <strong>Christian Heber</strong>
+                        </div>
+                        <div class="body-text m">IO</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide w-slide">
+                  <div class="testimonial-box-3">
+                    <p class="body-text m">
+                      &quot;Als selbständiger Unternehmer im IT-Bereich kann ich
+                      die Zusammenarbeit mit dem Team Shadet bestens
+                      weiterempfehlen. In Sachen Kompetenz, Flexibilität und
+                      Zuverlässigkeit wurde ich in jeder Hinsicht zufrieden
+                      gestellt und würde den nächsten Auftrag sofort wieder
+                      dieser jungen und dynamischen Truppe anvertrauen. Klare
+                      Empfehlung!&quot;
+                    </p>
+                    <div class="avatar-wrapper vertical">
+                      <div class="avatar-label-text centered s-m-t-8">
+                        <div class="body-text m bold c-t-neutral-100">
+                          <strong>Alf Nicolaysen</strong>
+                        </div>
+                        <div class="body-text m">Ixwork</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide w-slide">
+                  <div class="testimonial-box-3">
+                    <p class="body-text m">
+                      &quot;Das Team von Shadet hat eine fantastische
+                      Individual-Software nach strengen Vorgaben entwickelt. Die
+                      Verlässlichkeit, Kommunikation und das Arbeitstempo waren
+                      äußerst zufriedenstellend. Shadet ist daher auch der
+                      Partner für das nächste Software Projekt geworden.&quot;
+                    </p>
+                    <div class="avatar-wrapper vertical">
+                      <div class="avatar-label-text centered s-m-t-8">
+                        <div class="body-text m bold c-t-neutral-100">
+                          <strong>Max Weber</strong>
+                        </div>
+                        <div class="body-text m">Trimanda</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="left-arrow-2 w-slider-arrow-left">
+                <div class="icon w-icon-slider-left"></div>
+              </div>
+              <div class="right-arrow-2 w-slider-arrow-right">
+                <div class="icon-2 w-icon-slider-right"></div>
+              </div>
+              <div class="slide-nav w-slider-nav w-round"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="wf-section">
+      <div class="container w-container">
+        <div class="wrapper-m">
+          <div class="section-title section-title-full">
+            <h2
+              data-w-id="fc462246-712b-909f-6671-b5aba6e49612"
+              style="
+                -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="heading l t-a-c"
+            >
+              Unser Team
+            </h2>
+          </div>
+          <div
+            data-w-id="0cfaff9c-e85a-375e-92c9-be7a28699a6e"
+            style="
+              -webkit-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -moz-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1)
+                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -ms-transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                rotateY(0) rotateZ(0) skew(0, 0);
+              transform: translate3d(0, 55px, 0) scale3d(1, 1, 1) rotateX(0)
+                rotateY(0) rotateZ(0) skew(0, 0);
+              opacity: 0;
+            "
+            class="w-dyn-list"
+          >
+            <div role="list" class="collection-list-team w-dyn-items">
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8ae0ec84911bdd91d6de_christian-surges.jpg"
+                    alt=""
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Christian Surges</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Geschäftsführer
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min.JPG"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-500.jpeg   500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-800.jpeg   800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-1080.jpeg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-1600.jpeg 1600w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-2000.jpeg 2000w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-2600.jpeg 2600w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min-p-3200.jpeg 3200w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62331e84d05875e5dee083c9_hemd-min.JPG         4640w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Aaron Visang</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">Sales</p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62367977ac78d77d49df93a4_20211119_131032.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62367977ac78d77d49df93a4_20211119_131032-p-500.jpeg   500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62367977ac78d77d49df93a4_20211119_131032-p-800.jpeg   800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62367977ac78d77d49df93a4_20211119_131032-p-1080.jpeg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62367977ac78d77d49df93a4_20211119_131032.jpg         1276w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Finn Nicolaysen</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Prokurist
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62bee74bc268f53205b12e8e_2022-07-01%2014_11_52.512%2B0200.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62bee74bc268f53205b12e8e_2022-07-01%2014_11_52.512%2B0200-p-500.jpeg  500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62bee74bc268f53205b12e8e_2022-07-01%2014_11_52.512%2B0200-p-800.jpeg  800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62bee74bc268f53205b12e8e_2022-07-01%2014_11_52.512%2B0200.jpg        1045w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Jana Hellenthal</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Softwareassistentin
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/623b15d3a27521c50aa82747_Profilbild22_3_4.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/623b15d3a27521c50aa82747_Profilbild22_3_4-p-500.jpeg   500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/623b15d3a27521c50aa82747_Profilbild22_3_4-p-800.jpeg   800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/623b15d3a27521c50aa82747_Profilbild22_3_4-p-1080.jpeg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/623b15d3a27521c50aa82747_Profilbild22_3_4.jpg         1137w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Hendrik Steidl</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Entwickler
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8b978d802a70a6cb15b3_lukas-schulte.jpeg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8b978d802a70a6cb15b3_lukas-schulte-p-500.jpeg   500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8b978d802a70a6cb15b3_lukas-schulte-p-800.jpeg   800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8b978d802a70a6cb15b3_lukas-schulte-p-1080.jpeg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8b978d802a70a6cb15b3_lukas-schulte.jpeg        1365w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Lukas Schulte</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Mediengestalter
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62c4065a915382d9cd176d9e_Bild.jpg"
+                    alt=""
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Carine Matebou</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Entwicklerin
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62e7d418d37b73e7bc1a498d_temp.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62e7d418d37b73e7bc1a498d_temp-p-500.jpg   500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62e7d418d37b73e7bc1a498d_temp-p-800.jpg   800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62e7d418d37b73e7bc1a498d_temp-p-1080.jpg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62e7d418d37b73e7bc1a498d_temp.jpg        1125w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Niraj Niraj</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Entwickler
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-500.jpeg   500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-800.jpeg   800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-1080.jpeg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-1600.jpeg 1600w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-2000.jpeg 2000w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-2600.jpeg 2600w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild-p-3200.jpeg 3200w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/627e18e339410c824e4571b4_bild.jpg         6000w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Kordian Wioska</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Entwickler
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8d046132d964aa053b3a_Image%20Placeholder.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8d046132d964aa053b3a_Image%20Placeholder-p-500.jpeg 500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/618e8d046132d964aa053b3a_Image%20Placeholder.jpg        577w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Mona Gerhold</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Softwareassistentin
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6929b704067228e4ff3_siamac-kouscheschi-jungen.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6929b704067228e4ff3_siamac-kouscheschi-jungen-p-500.jpeg  500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6929b704067228e4ff3_siamac-kouscheschi-jungen-p-800.jpeg  800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6929b704067228e4ff3_siamac-kouscheschi-jungen.jpg        1024w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">
+                        Siamac Kouscheschi
+                      </h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Technische Unternehmensberatung
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6658acf4f10f88898b9_eva-kouscheschi-jungen.jpg"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6658acf4f10f88898b9_eva-kouscheschi-jungen-p-500.jpeg  500w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6658acf4f10f88898b9_eva-kouscheschi-jungen-p-800.jpeg  800w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/6235c6658acf4f10f88898b9_eva-kouscheschi-jungen.jpg        1024w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Eva Jungen</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Unternehmensberaterin
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div role="listitem" class="w-dyn-item">
+                <a href="#" class="card-team t-a-c w-inline-block"
+                  ><img
+                    src="https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min.JPG"
+                    alt=""
+                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 30vw"
+                    srcset="
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min-p-1080.jpeg 1080w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min-p-1600.jpeg 1600w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min-p-2000.jpeg 2000w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min-p-2600.jpeg 2600w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min-p-3200.jpeg 3200w,
+                      https://uploads-ssl.webflow.com/61654ace09c00f76ca05e020/62361f7e70f8921022579732_Kiwi-min.JPG         6960w
+                    "
+                    class="card-image-team"
+                  />
+                  <div class="card-text-wrapper">
+                    <div class="card-title c-b-secondary-100 s-p-16">
+                      <h3 class="heading s c-t-neutral-10">Kiwi</h3>
+                      <p class="body-text m c-t-secondary-20 s-m-t-0">
+                        Bürohund
+                      </p>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section
+      class="cta-section s-m-b-128 st-m-b-80 c-b-secondary-80 _0-bg-secondary s-m-b-0 wf-section"
+    >
+      <div class="container">
+        <div class="wrapper-l">
+          <div
+            data-w-id="50247f0d-2b9e-2dc5-0bae-7a69a1e8e850"
+            class="wrapper-m c-b-secondary-10 s-p-96 bg-0 st-p-0 sh-p-y-0"
+          >
+            <div class="content-cta-wrapper s-p-y-64 s-p-x-64 bg-wrapper-cta">
+              <div class="cta-wrapper cta-wrapper-main">
+                <h2 class="heading l">
+                  <span
+                    data-w-id="50247f0d-2b9e-2dc5-0bae-7a69a1e8e854"
+                    class="c-t-neutral-10"
+                    >Starten Sie noch heute mit der Umsetzung Ihrer skalierbaren
+                    App.</span
+                  >
+                </h2>
+                <p
+                  data-w-id="50247f0d-2b9e-2dc5-0bae-7a69a1e8e856"
+                  class="body-text l c-t-neutral-10"
+                >
+                  Und beginnen Sie noch heute, Ihre Prozesse zu vereinfachen,
+                  Kosten zu reduzieren und Gewinne zu steigern.
+                </p>
+                <a
+                  data-w-id="50247f0d-2b9e-2dc5-0bae-7a69a1e8e858"
+                  href="https://tidycal.com/shadet/kostenlose-beratung"
+                  class="button medium s-m-b-12 w-inline-block"
+                  ><div class="button-text">Projektanfrage starten</div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      data-w-id="2887398e-7f98-9dea-1efe-08776427cc27"
+      class="footer wf-section"
+    >
+      <div class="container">
+        <div class="w-layout-grid footer-grid">
+          <div>
+            <div class="vertical-menu-title">Über Shadet</div>
+            <ul role="list" class="w-list-unstyled">
+              <li class="vertical-menu-list-item">
+                <a
+                  href="/die-agentur.html"
+                  aria-current="page"
+                  class="vertical-menu-link w--current"
+                  >Die Agentur</a
+                >
+              </li>
+              <!-- <li class="vertical-menu-list-item">
+                <a href="/projekte" class="vertical-menu-link">Projekte</a>
+              </li> -->
+              <!-- <li class="vertical-menu-list-item">
+                <a href="/karriere" class="vertical-menu-link">Karriere</a>
+              </li> -->
+            </ul>
+          </div>
+          <div>
+            <div class="vertical-menu-title">Service</div>
+            <ul role="list" class="w-list-unstyled">
+              <li class="vertical-menu-list-item">
+                <a href="/webanwendungen.html" class="vertical-menu-link"
+                  >Webanwendungen</a
+                >
+              </li>
+              <li class="vertical-menu-list-item">
+                <a href="/mobile-apps.html" class="vertical-menu-link"
+                  >Mobile Apps</a
+                >
+              </li>
+              <li class="vertical-menu-list-item">
+                <a
+                  href="/optimierung-bestehender-systeme.html"
+                  class="vertical-menu-link"
+                  >Prozessoptimierung</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="vertical-menu-title">Kontakt</div>
+            <ul role="list" class="w-list-unstyled">
+              <li class="vertical-menu-list-item">
+                <a href="tel:026419148108" class="vertical-menu-link"
+                  >02641 9148 108</a
+                >
+              </li>
+              <li class="vertical-menu-list-item">
+                <a href="mailto:info@shadet.de" class="vertical-menu-link"
+                  >info@shadet.de</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="vertical-menu-title">Rechtliches</div>
+            <ul role="list" class="w-list-unstyled">
+              <li class="vertical-menu-list-item">
+                <a href="/impressum" class="vertical-menu-link">Impressum</a>
+              </li>
+              <li class="vertical-menu-list-item">
+                <a href="/datenschutz" class="vertical-menu-link"
+                  >Datenschutz</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="w-node-_2887398e-7f98-9dea-1efe-08776427cc5e-6427cc27">
+            <div class="sm-icons-wrapper">
+              <a
+                href="
+https://www.facebook.com/shadet.software/"
+                target="_blank"
+                class="sm-icon-link w-inline-block"
+                ><img
+                  src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61656403559bab13310724ba_icon-facebook.svg"
+                  loading="lazy"
+                  alt=""
+                  class="image-social" /></a
+              ><a
+                href="https://de.linkedin.com/company/shadet-ug"
+                target="_blank"
+                class="sm-icon-link w-inline-block"
+                ><img
+                  src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61656403aebe19bcba5b6e0e_icon-linkedin.svg"
+                  loading="lazy"
+                  alt=""
+                  class="image-social" /></a
+              ><a
+                href="https://www.instagram.com/shadet.software/?hl=de"
+                target="_blank"
+                class="sm-icon-link w-inline-block"
+                ><img
+                  src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/61656403273d48fa9a0f4623_icon-instagram.svg"
+                  loading="lazy"
+                  alt=""
+                  class="image-social"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom"><div>Copyright © 2021-2022 Shadet</div></div>
+      </div>
+    </footer>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6164061fc82283535d73a6a9"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://uploads-ssl.webflow.com/6164061fc82283535d73a6a9/js/webflow.6583931e7.js"
+      type="text/javascript"
+    ></script>
+    <!--[if lte IE 9
+      ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
+    ><![endif]-->
+    <script>
+      // default time is 182 days
+      flowBaseCookie("#cookieBlock", "#accept", "#clr", 30);
+    </script>
+
+    <style>
+      .w-nav-overlay {
+        top: 0px;
+      }
+    </style>
+    <!-- Copying by clicking on Comp name -->
+
+    <script>
+      function copy(text) {
+        const textarea = document.createElement("textarea");
+        textarea.style = "position: absolute; left: -100vw;";
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+      }
+      function copyText(e) {
+        const elem = e.currentTarget;
+        const text = elem.textContent;
+        copy(text);
+        elem.textContent =
+          "Copied to clipboard ✨ Press Cmd + E in Webflow ⭢ Paste";
+        setTimeout(() => {
+          elem.textContent = text;
+        }, 3000);
+      }
+      const elems = document.querySelectorAll(".component-wrapper-label");
+      elems.forEach((elem) => elem.addEventListener("click", copyText, false));
+    </script>
+
+    <!-- Dynamic Copyright Year -->
+    <script>
+      window.onload = function () {
+        var date = new Date().getFullYear();
+        var year = document.getElementById("year");
+        if (year) {
+          year.innerHTML = date;
+        }
+      };
+    </script>
+
+    <!-- Live Components -->
+    <script src="https://web-system-flow.github.io/scripts/counter.js"></script>
+    <script src="https://web-system-flow.github.io/scripts/cookie.js"></script>
+    <script src="https://web-system-flow.github.io/scripts/temporal.js"></script>
+  </body>
+</html>

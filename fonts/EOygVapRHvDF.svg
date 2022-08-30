@@ -1,0 +1,17 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="240" height="240" fill="#EDF0F3"/>
+<rect x="40" y="40" width="160" height="160" rx="4" fill="#E0E3E6"/>
+<rect x="41" y="81" width="158" height="78" rx="3" fill="white" stroke="#D0D4D9" stroke-width="2"/>
+<path d="M56 102C56 100.895 56.8954 100 58 100H66C67.1046 100 68 100.895 68 102V110C68 111.105 67.1046 112 66 112H58C56.8954 112 56 111.105 56 110V102Z" fill="#E0E3E6"/>
+<rect x="56" y="120" width="28" height="4" rx="2" fill="#838D95"/>
+<rect x="56" y="128" width="32" height="4" rx="2" fill="#C1C9D5"/>
+<rect x="56" y="136" width="32" height="4" rx="2" fill="#C1C9D5"/>
+<path d="M104 102C104 100.895 104.895 100 106 100H114C115.105 100 116 100.895 116 102V110C116 111.105 115.105 112 114 112H106C104.895 112 104 111.105 104 110V102Z" fill="#E0E3E6"/>
+<rect x="104" y="120" width="28" height="4" rx="2" fill="#838D95"/>
+<rect x="104" y="128" width="32" height="4" rx="2" fill="#C1C9D5"/>
+<rect x="104" y="136" width="32" height="4" rx="2" fill="#C1C9D5"/>
+<path d="M152 102C152 100.895 152.895 100 154 100H162C163.105 100 164 100.895 164 102V110C164 111.105 163.105 112 162 112H154C152.895 112 152 111.105 152 110V102Z" fill="#E0E3E6"/>
+<rect x="152" y="120" width="28" height="4" rx="2" fill="#838D95"/>
+<rect x="152" y="128" width="32" height="4" rx="2" fill="#C1C9D5"/>
+<rect x="152" y="136" width="32" height="4" rx="2" fill="#C1C9D5"/>
+</svg>
